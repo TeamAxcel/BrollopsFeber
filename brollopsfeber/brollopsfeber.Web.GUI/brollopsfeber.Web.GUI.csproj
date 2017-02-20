@@ -117,6 +117,12 @@
     <Folder Include="Views\Exhibitor\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\brollopsfeber.Domain\brollopsfeber.Domain.csproj">
+      <Project>{95d63a8f-4957-49f4-8f70-440ad185fa8d}</Project>
+      <Name>brollopsfeber.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
